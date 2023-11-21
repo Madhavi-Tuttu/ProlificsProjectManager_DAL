@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Employees">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EmployeeId" type="xs:int" minOccurs="0" />
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="LastName" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="MobileNum" type="xs:string" minOccurs="0" />
+                <xs:element name="Address" type="xs:string" minOccurs="0" />
+                <xs:element name="EmployeeRoleId" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <NewDataSet>
+      <Employees diffgr:id="Employees1" msdata:rowOrder="0">
+        <EmployeeId>1</EmployeeId>
+        <FirstName>hfhrfr</FirstName>
+        <LastName>jhfdjfhdrf</LastName>
+        <Email>dgfhjfgjf8@gmail.com</Email>
+        <MobileNum>+919876543212</MobileNum>
+        <Address>hgg</Address>
+        <EmployeeRoleId>1</EmployeeRoleId>
+      </Employees>
+      <Employees diffgr:id="Employees2" msdata:rowOrder="1">
+        <EmployeeId>2</EmployeeId>
+        <FirstName>gdfgdjhf</FirstName>
+        <LastName>hgfjhfg</LastName>
+        <Email>fffhf7@gmail.com</Email>
+        <MobileNum>+919876543234</MobileNum>
+        <Address>vfhh</Address>
+        <EmployeeRoleId>1</EmployeeRoleId>
+      </Employees>
+    </NewDataSet>
+  </diffgr:diffgram>
+</DataSet>
